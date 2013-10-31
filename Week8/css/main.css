@@ -104,18 +104,23 @@ body {
 }
 
 header {
-    background: url(../img/jeff_dc.jpg);
-    height: 502px;
+    background: url(../img/holdontoyabutts.jpg);
+    height: 462px;
     padding: 20px;
 }
 
 h1 {
-    padding-top: 430px;
+    padding-top: 390px;
+    color: #fff;
 }
 
-h1, h2 {
-    margin: 0;
+h2 {
+    font-weight: normal;
     color: #fff;
+}
+
+h1, h2, p {
+    margin: 0;
 }
 
 #map-location {
@@ -128,6 +133,9 @@ nav {
     width: 250px;
 }
 
+article {
+    margin-left: 300px;
+}
 
 
 
