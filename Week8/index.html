@@ -22,7 +22,9 @@
             <h2>Programmer, Student, Lush</h2>
         </header>
 
-        <div id="map-location"></div>
+
+        <div id="map-location" data-0="background-image:url(img/canvasbw.png);opacity:.5;" data-500="background-image:url(img/canvas.png);opacity:1;" data-800="opacity:.5;">
+        </div>
 
         <nav>
             <ul>
@@ -45,15 +47,13 @@
             </section>
             <section id="portfolio">
                 <h3>Portfolio</h3>
-                <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </p>
+                <ul class="gallery">
+                    <li><img alt="portfolio" src="img/portfolio.gif"></li>
+                    <li><img alt="portfolio" src="img/portfolio.gif"></li>
+                    <li><img alt="portfolio" src="img/portfolio.gif"></li>
+                    <li><img alt="portfolio" src="img/portfolio.gif"></li>
+                    <li><img alt="portfolio" src="img/portfolio.gif"></li>
+                </ul>
             </section>
             <section id="contact">
                 <h3>Contact</h3>
@@ -72,8 +72,13 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/skrollr.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
 
 
     </body>

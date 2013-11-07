@@ -119,19 +119,41 @@ h2 {
     color: #fff;
 }
 
-h1, h2, p {
+h1, h2, p, ul {
     margin: 0;
 }
 
 #map-location {
-    background: #e3e3e3;
-    padding: 40px;
+    background: #f3f3f3;
+    height: 250px;
+    background-position: center;
+    background-image: url('../img/canvas.png');
+    transition: background-image .5s;
 }
 
 nav {
     float: left;
     width: 250px;
 }
+
+ul {
+    list-style-type: none;
+
+}
+
+
+.gallery li {
+    display: inline-block;
+    margin: 0 2% 2% 0;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    transition: border-color .5s;
+}
+
+.gallery li:hover {
+    border-color: #aeccf9;
+}
+
 
 article {
     margin-left: 300px;
