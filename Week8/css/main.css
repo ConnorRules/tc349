@@ -105,6 +105,7 @@ body {
 
 header {
     background: url(../img/holdontoyabutts.jpg);
+    background-position: center;
     height: 462px;
     padding: 20px;
 }
@@ -133,7 +134,7 @@ h1, h2, p, ul {
 
 nav {
     float: left;
-    width: 250px;
+    width: 270px;
 }
 
 ul {
@@ -148,19 +149,37 @@ ul {
     border: 5px solid #fff;
     box-shadow: 0 0 10px #ccc;
     transition: border-color .5s;
+    
 }
 
 .gallery li:hover {
     border-color: #aeccf9;
+    transition: transform .5s;
+    transform: rotate(360deg);
 }
 
 
 article {
     margin-left: 300px;
+    display: inline-block;
 }
 
+nav ul {
+    margin: 10px 0 0 10px;
 
+}
 
+nav a {
+    color: #424242;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+}
+
+nav a:hover {
+    background: #ccc;
+}
 
 
 
@@ -274,9 +293,19 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media (max-width: 600px) {
     /* Style adjustments for viewports that meet the condition */
+    nav {
+        float: none;
+        width: auto;
+    }
+
+    portfolio.img {
+        max-height: 50%;
+    }
+
 }
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
