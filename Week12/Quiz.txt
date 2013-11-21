@@ -1,0 +1,12 @@
+1: True
+2: False. Apply for an EIN
+3: False
+4: Accidents / Personal Injuries on Business Property
+5: True
+6: Labor = 39.07/hour Overhead = 11/hour Cost = 50/hour profit= 12.5/hour Final= 62.5/hour
+7: False
+8: MSU Engineering Job Fair / Port 80
+9: True
+10: Write your own blog about the industry
+Guess post on Popular Blogs
+Be a lecturer in conferences
