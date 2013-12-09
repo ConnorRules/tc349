@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>The Connor Gilbert</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">Connor Gilbert</a></h1>
+    </div>
+    <!-- end div#logo -->
+  </div>
+  <!-- end div#header -->
+  <div id="menu">
+    <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div id="splash"><img src="img/img01.jpg" width="940" height="410" alt="" /></div>
+  <!-- end div#menu -->
+  <div id="page">
+    <div id="page-bgtop">
+      <div id="content">
+        <div class="post">
+          <h2 class="title"><a href="#">This is where I'd put a blog. </a></h2>
+          <div class="entry">
+            <p>I'll be adding  a blog section here once I figure out that</p>
+            <p><img src = "http://i.imgflip.com/5b8iy.jpg" /></p>
+          </div>
+        </div>
+      </div>
+      <!-- end div#content -->
+      <div id="sidebar">
+        <ul>
+          <li>
+            <h2>Friends</h2>
+            <ul>
+              <li><a href="http://www.ziggysbreastquest.org/">Ziggy's Breast Quest</a></li>
+              <li><a href="http://igotbabyleg.tumblr.com/">IGotBabyLeg</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Favorite Blogs</h2>
+            <ul>
+              <li><a href="http://www.hanselman.com/">Scott Hanselman</a></li>
+              <li><a href="http://what-if.xkcd.com/">XKCD What If?</a></li>
+              <li><a href="http://hyperboleandahalf.blogspot.com/">Hyperbole and a Half</a></li>
+              <li><a href="http://uncrate.com/">Uncrate</a></li>
+              <li><a href="http://ivory.idyll.org/blog/">Living in an Ivory Basement</a></li>
+            </ul>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+      <!-- end div#sidebar -->
+      <div style="clear: both; height: 1px"></div>
+    </div>
+  </div>
+  <!-- end div#page -->
+  <div id="footer">
+    <p> Designed by Connor Gilbert</p>
+    <p id="links">connorsname@gmail.com | 616-818-8025</p>
+  </div>
+  <!-- end div#footer -->
+</div>
+<!-- end div#wrapper -->
+</body>
+</html>
+
+<script type="text/javascript">
+function RedirectSmartphone(url){
+    if (url && url.length > 0 && IsSmartphone())
+    window.location = url;
+}
+function IsSmartphone(){
+    if (DetectUagent("android")) return true;
+    else if (DetectUagent("blackberry")) return true;
+    else if (DetectUagent("iphone")) return true;
+    else if (DetectUagent("palm")) return true;
+    else if (DetectUagent("ipad")) return true;
+    else if (DetectUagent("ipod")) return true;
+    return false;
+}
+function DetectUagent(name){
+    var uagent = navigator.userAgent.toLowerCase();
+    if (uagent.search(name) > -1)
+    return true;
+    else
+    return false;
+}
+RedirectSmartphone("mobile.html");
+</script> 
